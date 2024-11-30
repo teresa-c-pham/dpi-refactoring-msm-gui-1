@@ -52,4 +52,7 @@ class ActorsController < ApplicationController
 
     redirect_to("/actors", { :notice => "Actor deleted successfully."} )
   end
+
+  # Instance methods to refactor code
+  
 end
